@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.c7dc4362.chunk.css",
-    "main.js": "/static/js/main.93bba100.chunk.js",
-    "main.js.map": "/static/js/main.93bba100.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.b5470c2c.js",
-    "runtime-main.js.map": "/static/js/runtime-main.b5470c2c.js.map",
-    "static/js/2.79c7f327.chunk.js": "/static/js/2.79c7f327.chunk.js",
-    "static/js/2.79c7f327.chunk.js.map": "/static/js/2.79c7f327.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.a5fa8d7d8765be9abe23c599375bb688.js": "/precache-manifest.a5fa8d7d8765be9abe23c599375bb688.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.c7dc4362.chunk.css.map": "/static/css/main.c7dc4362.chunk.css.map",
-    "static/js/2.79c7f327.chunk.js.LICENSE": "/static/js/2.79c7f327.chunk.js.LICENSE",
-    "static/media/logo_css.png": "/static/media/logo_css.f1f33005.png",
-    "static/media/logo_html.png": "/static/media/logo_html.8ba1a66e.png",
-    "static/media/profilepic.jpg": "/static/media/profilepic.c57c2925.jpg",
-    "static/media/index.css": "/static/media/showcase.ce0e61fd.jpg"
+    "main.css": "/MyBlog/static/css/main.a9f79254.chunk.css",
+    "main.js": "/MyBlog/static/js/main.e4a64c8a.chunk.js",
+    "main.js.map": "/MyBlog/static/js/main.e4a64c8a.chunk.js.map",
+    "runtime-main.js": "/MyBlog/static/js/runtime-main.01665a28.js",
+    "runtime-main.js.map": "/MyBlog/static/js/runtime-main.01665a28.js.map",
+    "static/js/2.79c7f327.chunk.js": "/MyBlog/static/js/2.79c7f327.chunk.js",
+    "static/js/2.79c7f327.chunk.js.map": "/MyBlog/static/js/2.79c7f327.chunk.js.map",
+    "index.html": "/MyBlog/index.html",
+    "precache-manifest.1cef78b12e38861bab8f1113505f8c17.js": "/MyBlog/precache-manifest.1cef78b12e38861bab8f1113505f8c17.js",
+    "service-worker.js": "/MyBlog/service-worker.js",
+    "static/css/main.a9f79254.chunk.css.map": "/MyBlog/static/css/main.a9f79254.chunk.css.map",
+    "static/js/2.79c7f327.chunk.js.LICENSE": "/MyBlog/static/js/2.79c7f327.chunk.js.LICENSE",
+    "static/media/logo_css.png": "/MyBlog/static/media/logo_css.f1f33005.png",
+    "static/media/logo_html.png": "/MyBlog/static/media/logo_html.8ba1a66e.png",
+    "static/media/profilepic.jpg": "/MyBlog/static/media/profilepic.c57c2925.jpg",
+    "static/media/index.css": "/MyBlog/static/media/showcase.ce0e61fd.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b5470c2c.js",
+    "static/js/runtime-main.01665a28.js",
     "static/js/2.79c7f327.chunk.js",
-    "static/css/main.c7dc4362.chunk.css",
-    "static/js/main.93bba100.chunk.js"
+    "static/css/main.a9f79254.chunk.css",
+    "static/js/main.e4a64c8a.chunk.js"
   ]
 }
