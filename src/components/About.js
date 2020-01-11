@@ -20,7 +20,7 @@ class About extends React.Component {
                                     About Me
              </h1>
                                 <p>
-                                   <b>Software Developer </b> who loves to transform ideas into reality using code. I love to code using javascript frameworks like Angular,React,Node. Love to watch movies and eat chicken items.
+                                  Born and raised in  Kakinada, Andhra Pradesh and I am graduated from Kakinada Institute of engineering and technology in Electronics and communication Engineering.
                                 </p>
                                 <p className="dark">
                                     Donec luctus enim justo, eu ornare risus fermentum sed. Sed libero justo, molestie eget semper quis, tempor eget magna. Aenean vestibulum efficitur neque eu feugiat. Aliquam augue enim, vestibulum et risus eget, viverra maximus leo. Nullam maximus, neque sit amet vestibulum tincidunt, turpis nisl varius sapien, mattis suscipit sem mauris ut nisi. Etiam consectetur porta facilisis. Etiam eleifend nibh sit amet nulla consectetur tincidunt.

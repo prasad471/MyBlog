@@ -14,9 +14,11 @@ class Home extends React.Component {
             <div className="container">
            
             <img src={profilepic} alt="Avatar" style={{width:'150px'}}></img>
-             <h1>Hi, I am Durga Prasad Bobbili!</h1>
+            <h1>Hi, I am Durga Prasad Bobbili!</h1>
             <p>I am MEAN/MERN STACK developer from Hyderabad,India. Having over 4 years of experience, currently working as an Associate in Cognizant. My passion is creating, and I find happiness in being a better me today than the me yesterday.  </p>
-            </div>
+
+           
+                    </div>
         </section>
 
 
