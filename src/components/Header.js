@@ -2,20 +2,21 @@ import React from 'react';
 import Home from './Home';
 import About from './About';
 import Services from './Services';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-const menuItems = [{ 'name': 'home', 'url': '/','key':'a' },
+import { Route, Link, HashRouter } from 'react-router-dom';
+const menuItems = [{ 'name': 'MyBlog', 'url': '/','key':'a' },
 { 'name': 'about', 'url': '/about','key':'b' },
 { 'name': 'services', 'url': '/services','key':'c' }];
 class Header extends React.Component {
 
     constructor(props) {
         super(props);
-        this.state = { name: 'Home' };
+        this.state = { name: 'MyBlog' };    
     }
 
     componentDidMount(){
-        let stateName = window.location.pathname.replace('/','');
-        this.setState({name:stateName.length===0?'home':stateName });
+        let stateNames = window.location.hash.split('/');
+        let stateName = stateNames[stateNames.length-1];
+        this.setState({name:stateName===''?'MyBlog':stateName});
     }
 
     _handleMenuClick = (menu) => {
@@ -23,7 +24,7 @@ class Header extends React.Component {
     }
     render() {
         return (
-            <Router>
+            <HashRouter>
                 <header>
                     <div className="container">
                         <div id="branding">
@@ -40,13 +41,12 @@ class Header extends React.Component {
                         </nav>
                     </div>
                 </header>
-                <Switch>
+              
                     <Route exact path='/' component={Home} />
                     <Route path='/about' component={About} />
                     <Route path='/services' component={Services} />
-                </Switch>
 
-            </Router>
+            </HashRouter>
 
 
         )
